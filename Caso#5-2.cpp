@@ -446,11 +446,12 @@ int Texto1yTexto3(){
 
 int main(){
     double promedio12 = 0;
+    cout<< "Comparacion entre el Texto 1 y el Texto 2 "<<endl;
     for (int i = 0; i < 10; i++)
     {
         promedio12+= Texto1yTexto2();
     }
-    cout<< promedio12/5 <<endl;
+    cout<<"Porcentaje: "<< promedio12/5 <<endl;
     if (50<(promedio12/5))
     {
         cout<< "Alta probalidad de considencias"<<endl;
@@ -459,12 +460,13 @@ int main(){
     {
         cout<< "Baja probalidad de considencias"<<endl;
     }
+    cout<< "Comparacion entre el Texto 1 y el Texto 3 "<<endl;
     double promedio23 = 0;
     for (int i = 0; i < 10; i++)
     {
         promedio23+= Texto1yTexto3();
     }
-    cout<< promedio23/5 <<endl;
+    cout<<"Porcentaje: "<<promedio23/5 <<endl;
     if (50<(promedio23/5))
     {
         cout<< "Alta probalidad de considencias"<<endl;
